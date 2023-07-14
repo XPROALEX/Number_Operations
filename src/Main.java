@@ -6,11 +6,8 @@ public class Main {
         int b =a;
         b ++;
         boolean isOdd= b % 2 != 0;
-        System.out.println("B value="+b);
-        System.out.println("Is B an odd number? "+isOdd);
         int multiply=b*(b+1);
         boolean isMultiple=multiply % 3 == 0;
-        System.out.println("multiply the value of b by its own value+1 = "+multiply);
-        System.out.println("Is the result multiple of 3? "+ isMultiple);
+        System.out.println("B value="+b+"\nIs B an odd number? "+isOdd+"\nmultiply the value of b by its own value+1 = "+multiply+"\nIs the result multiple of 3? "+ isMultiple);
     }
 }
